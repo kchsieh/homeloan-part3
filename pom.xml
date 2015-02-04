@@ -27,7 +27,7 @@
   
   <properties>
     <fabric8.parentProfile>feature-camel</fabric8.parentProfile>
-    <fabric8.profile>GettingStarted</fabric8.profile>
+    <fabric8.profile>getting.started</fabric8.profile>
     <fabric8.bundles>wrap:mvn:postgresql/postgresql/9.0-801.jdbc4 mvn:commons-dbcp/commons-dbcp/1.4</fabric8.bundles>
     <fabric8.features>war camel-cxf cxf camel-http4 camel-jaxb camel-sql camel-jackson</fabric8.features>
     <fabric8.featureRepos>mvn:org.apache.camel.karaf/apache-camel/${version:camel}/xml/features</fabric8.featureRepos>
